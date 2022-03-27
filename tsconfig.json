@@ -1,0 +1,14 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDirs": ["./src", "./shared"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["./node_modules", "./client"]
+}

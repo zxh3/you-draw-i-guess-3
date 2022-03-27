@@ -1,0 +1,19 @@
+{
+  "name": "you-draw-i-guess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Xiaohua Zhang <cheonghiuwaa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "backend-dev": "nodemon ./src/index.ts",
+    "frontend-dev": "pushd client && yarn start && popd"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
